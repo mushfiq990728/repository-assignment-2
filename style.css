@@ -281,11 +281,128 @@ margin-bottom: 20px;
 @media screen and (max-width: 552px) {
   .trusted-section{
     flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
   }
   #icon{
     display: none;
   }
   .trusted-title{
     margin: 5px;
+  }
+}
+/* latest section */
+.latest-deal{
+  text-align: center;
+  margin: 100px auto;
+}
+.latest-deal-title{
+  font-weight: 900;
+  font-size: 3rem;
+}
+.latest-deal-title span{
+  color: #E95A08;
+}
+.latest-text{
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.5);
+  width: 850px;
+  margin: 0 auto;
+}
+.latest-pic-container{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.shop-1{
+  border: 2px solid;
+  border-radius: 15px;
+  width: 366px;
+  height: 206px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 1.25rem;
+  color: #ffffff;
+  background-image: url(assets/deal-bloom.png);
+   background-size: cover;
+}
+.shop-2{
+  border: 2px solid;
+  border-radius: 15px;
+  width: 366px;
+  height: 206px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 900;
+  font-size: 1.25rem;
+  color: #ffffff;
+  background-image: url(assets/deal-ana.png);
+   background-size: cover;
+}
+.shop-3{
+  border: 2px solid;
+  border-radius: 15px;
+  width: 753px;
+  height: 425px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 900;
+  font-size: 2.50rem;
+  color: #ffffff;
+  background-image: url(assets/deal-zabo.png);
+  background-size: cover;
+}
+.shop-1 a{
+  font-weight: 300;
+  font-size: 1rem;
+  color: #ffffff;
+}
+.shop-2 a{
+  font-weight: 300;
+  font-size: 1rem;
+  color: #ffffff;
+}
+.shop-3 a{
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+@media screen and (max-width: 552px) {
+  .latest-deal-container{
+    width: 550px;
+    margin: 0 auto;
+  }
+    .latest-pic-container {
+    display: block;
+    margin: 0 auto;
+    width: 366px; 
+    
+  }
+
+  .shop-1-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .shop-1, .shop-2, .shop-3 {
+    width: 100%; 
+    width: 366px; 
+    height: 177px;
+    margin: 0 auto;
   }
 }
