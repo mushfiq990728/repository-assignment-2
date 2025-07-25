@@ -416,6 +416,7 @@ margin-bottom: 20px;
   background-image: url(assets/news-letter-bg.png);
   background-size: cover;
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 .subscribe-title{
   font-weight: 900;
@@ -437,5 +438,41 @@ margin-bottom: 20px;
    background-image: url(assets/news-letter-bg.png);
    background-size: cover;
    width: 1200px;
+  }
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+.footer-text{
+  width: 350px;
+  height: 81px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+}
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  list-style: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+.icons{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+@media screen and (max-width: 552px) {
+  .footer-container{
+   display: block;
+   margin: 20px;
+  }
+  .footer-list{
+    margin-left: -40px;
+  }
+  .icons{
+    margin-top: 10px;
+    margin-left: -150px;
   }
 }
