@@ -406,3 +406,36 @@ margin-bottom: 20px;
     margin: 0 auto;
   }
 }
+.subscribe-section{
+  width: 100%;
+  height: 533px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(assets/news-letter-bg.png);
+  background-size: cover;
+  margin-top: 100px;
+}
+.subscribe-title{
+  font-weight: 900;
+  font-size: 3rem;
+  color: #ffffff;
+}
+.subscribe-form{
+  display: flex;
+}
+.submit-it{
+  margin-left: 0;
+  background-color: #e65c00;
+  padding: 10px 40px;
+}
+@media screen and (max-width: 552px) {
+  .subscribe-section{
+    /* width: fit-content; */
+   /* margin-left: 50px; */
+   background-image: url(assets/news-letter-bg.png);
+   background-size: cover;
+   width: 1200px;
+  }
+}
